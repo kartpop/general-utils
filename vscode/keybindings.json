@@ -30,5 +30,16 @@
         "command": "cursorMove",
         "when": "textInputFocus",
         "args": { "to": "down", "by": "line", "value": 6, "select": true }
+    },
+   // change source control view keybinding
+    {
+        "key": "ctrl+shift+s",
+        "command": "workbench.view.scm",
+        "when": "workbench.scm.active"
+    },
+    {
+        "key": "ctrl+shift+g",
+        "command": "-workbench.view.scm",
+        "when": "workbench.scm.active"
     }
 ]
