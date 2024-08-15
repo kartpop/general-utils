@@ -1,45 +1,45 @@
 // Place your key bindings in this file to override the defaults
 [
-    // focus on copilot chat view
-    {
-        "key": "ctrl+meta+a",
-        "command": "workbench.panel.chat.view.copilot.focus"
-    },
-    // move cursor up and down by 6 lines
-    {
-        "key": "ctrl+up",
-        "command": "cursorMove",
-        "when": "textInputFocus",
-        "args": { "to": "up", "by": "line", "value": 6 }
-    },
-    {
-        "key": "ctrl+down",
-        "command": "cursorMove",
-        "when": "textInputFocus",
-        "args": { "to": "down", "by": "line", "value": 6 }
-    },
-    // move cursor up and down by 6 lines and select text
-    {
-        "key": "ctrl+shift+up",
-        "command": "cursorMove",
-        "when": "textInputFocus",
-        "args": { "to": "up", "by": "line", "value": 6, "select": true }
-    },
-    {
-        "key": "ctrl+shift+down",
-        "command": "cursorMove",
-        "when": "textInputFocus",
-        "args": { "to": "down", "by": "line", "value": 6, "select": true }
-    },
-   // change source control view keybinding
-    {
-        "key": "ctrl+shift+s",
-        "command": "workbench.view.scm",
-        "when": "workbench.scm.active"
-    },
-    {
-        "key": "ctrl+shift+g",
-        "command": "-workbench.view.scm",
-        "when": "workbench.scm.active"
-    }
+  // focus on copilot chat view
+  {
+    "key": "ctrl+meta+a",
+    "command": "workbench.panel.chat.view.copilot.focus"
+  },
+  // move cursor up and down by 6 lines
+  {
+    "key": "ctrl+up",
+    "command": "cursorMove",
+    "when": "textInputFocus",
+    "args": { "to": "up", "by": "line", "value": 6 }
+  },
+  {
+    "key": "ctrl+down",
+    "command": "cursorMove",
+    "when": "textInputFocus",
+    "args": { "to": "down", "by": "line", "value": 6 }
+  },
+  // move cursor up and down by 6 lines and select text
+  {
+    "key": "ctrl+shift+up",
+    "command": "cursorMove",
+    "when": "textInputFocus",
+    "args": { "to": "up", "by": "line", "value": 6, "select": true }
+  },
+  {
+    "key": "ctrl+shift+down",
+    "command": "cursorMove",
+    "when": "textInputFocus",
+    "args": { "to": "down", "by": "line", "value": 6, "select": true }
+  },
+  // change source control view keybinding
+  {
+    "key": "ctrl+shift+s",
+    "command": "workbench.view.scm",
+    "when": "workbench.scm.active"
+  },
+  {
+    "key": "ctrl+shift+g",
+    "command": "-workbench.view.scm",
+    "when": "workbench.scm.active"
+  }
 ]

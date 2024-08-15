@@ -1,0 +1,61 @@
+{
+    "files.autoSave": "afterDelay",
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "window.zoomLevel": 1,
+    "[dart]": {
+      "editor.formatOnSave": true,
+      "editor.formatOnType": true,
+      "editor.rulers": [80],
+      "editor.selectionHighlight": false,
+      "editor.suggestSelection": "first",
+      "editor.tabCompletion": "onlySnippets",
+      "editor.wordBasedSuggestions": "off"
+    },
+    "editor.fontSize": 12.6,
+    "terminal.integrated.fontSize": 12.6,
+    "yaml.schemas": {
+      "kubernetes": "*.yaml"
+    },
+    "github.copilot.editor.enableAutoCompletions": true,
+    "notebook.output.scrolling": true,
+    "[javascriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[plaintext]": {
+      "editor.wordWrap": "on",
+      "editor.wordWrapColumn": 0,
+      "editor.wordWrapMinified": true
+    },
+    "editor.minimap.enabled": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact",
+      "javascriptreact": "javascriptreact",
+      "typescript": "typescriptreact",
+      "typescriptreact": "typescriptreact"
+    },
+    "emmet.syntaxProfiles": {
+      "javascript": {
+        "jsx": true
+      },
+      "typescript": {
+        "jsx": true
+      }
+    }
+  }
+  
